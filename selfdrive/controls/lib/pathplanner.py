@@ -144,7 +144,10 @@ class PathPlanner():
         if self.dragon_auto_lc_timer is None:
           # we only set timer when in preLaneChange state, dragon_auto_lc_delay delay
           if self.lane_change_state == LaneChangeState.preLaneChange:
-            self.dragon_auto_lc_timer = cur_time + sm['dragonConf'].dpAutoLcDelay
+            self.dragon_auto_lc_timer = cur_time + 1.9 #sm['dragonConf'].dpAutoLcDelay
+            with open(“/data/ernie_debug_data”) as f: 
+              f.write(+ "cur_time: " + cur_time + " ; self.dragon_auto_lc_timer: " + self.dragon_auto_lc_timer + " ; sm['dragonConf'].dpAutoLcDelay: " + sm['dragonConf'].dpAutoLcDelay + "\n")             
+
         elif cur_time >= self.dragon_auto_lc_timer:
           # if timer is up, we set torque_applied to True to fake user input
           torque_applied = True
