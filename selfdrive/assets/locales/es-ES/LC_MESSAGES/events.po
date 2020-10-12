@@ -494,7 +494,7 @@ msgstr ""
 
 #: selfdrive/controls/lib/events.py:813
 msgid "Left ALC will start in 3s"
-msgstr "Left ALC empezará 3s"
+msgstr "Left ALC empezará en 3s"
 
 #: selfdrive/controls/lib/events.py:821
 msgid "Right ALC will start in 3s"
