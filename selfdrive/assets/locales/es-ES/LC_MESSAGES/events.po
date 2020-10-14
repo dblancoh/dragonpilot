@@ -360,7 +360,7 @@ msgstr ""
 
 #: selfdrive/controls/lib/events.py:631 selfdrive/controls/lib/events.py:632
 msgid "Communication Issue between Processes"
-msgstr ""
+msgstr "Problema de Comunicación entre Procesos"
 
 #: selfdrive/controls/lib/events.py:637 selfdrive/controls/lib/events.py:638
 msgid "Radar Communication Issue"
@@ -404,11 +404,11 @@ msgstr ""
 #: selfdrive/controls/lib/events.py:703 selfdrive/controls/lib/events.py:705
 #: selfdrive/controls/lib/events.py:709
 msgid "CAN Error: Check Connections"
-msgstr ""
+msgstr "CAN Error: Revisa las Conexiones"
 
 #: selfdrive/controls/lib/events.py:713 selfdrive/controls/lib/events.py:719
 msgid "LKAS Fault: Restart the Car"
-msgstr ""
+msgstr "Fallo de LKAS: Reinicia el Coche"
 
 #: selfdrive/controls/lib/events.py:715
 msgid "LKAS Fault: Restart the car to engage"
@@ -433,7 +433,7 @@ msgstr ""
 
 #: selfdrive/controls/lib/events.py:738 selfdrive/controls/lib/events.py:739
 msgid "Reverse Gear"
-msgstr ""
+msgstr "Marcha Atrás (R)"
 
 #: selfdrive/controls/lib/events.py:743
 msgid "Cruise Is Off"
@@ -494,11 +494,11 @@ msgstr ""
 
 #: selfdrive/controls/lib/events.py:813
 msgid "Left ALC will start in 3s"
-msgstr "Left ALC empezará en 3s"
+msgstr "ALC Izq. empezará en 3s"
 
 #: selfdrive/controls/lib/events.py:821
 msgid "Right ALC will start in 3s"
-msgstr "Right ALC empezará en 3s"
+msgstr "ALC Dch. empezará en 3s"
 
 #: selfdrive/controls/lib/events.py:837
 msgid "STEERING REQUIRED: Lane Keeping OFF"
