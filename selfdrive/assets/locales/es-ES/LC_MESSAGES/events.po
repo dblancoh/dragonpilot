@@ -72,13 +72,13 @@ msgid "DEBUG ALERT"
 msgstr ""
 
 #: selfdrive/controls/lib/events.py:228
-msgid "Be ready to take over at any time"
+msgid "Preparado para asumir el control"
 msgstr ""
 
 #: selfdrive/controls/lib/events.py:229 selfdrive/controls/lib/events.py:245
 #: selfdrive/controls/lib/events.py:253 selfdrive/controls/lib/events.py:261
 msgid "Always keep hands on wheel and eyes on road"
-msgstr ""
+msgstr "Siempre las manos junto al volante y vigila la carretera"
 
 #: selfdrive/controls/lib/events.py:236
 msgid "WARNING: White panda is deprecated"
@@ -279,7 +279,7 @@ msgstr ""
 
 #: selfdrive/controls/lib/events.py:546
 msgid "Out of Storage Space"
-msgstr ""
+msgstr "Sin Espacio de Almacenamiento"
 
 #: selfdrive/controls/lib/events.py:551
 msgid "Speed Too Low"
@@ -287,7 +287,7 @@ msgstr ""
 
 #: selfdrive/controls/lib/events.py:556 selfdrive/controls/lib/events.py:560
 msgid "NEOS Update Required"
-msgstr ""
+msgstr "Actualización de NEOS Necesaria"
 
 #: selfdrive/controls/lib/events.py:557
 msgid "Please Wait for Update"
@@ -300,7 +300,7 @@ msgstr ""
 #: selfdrive/controls/lib/events.py:566 selfdrive/controls/lib/events.py:579
 #: selfdrive/controls/lib/events.py:686
 msgid "Reboot your Device"
-msgstr ""
+msgstr "Reinicia tu Dispositivo"
 
 #: selfdrive/controls/lib/events.py:578 selfdrive/controls/lib/events.py:582
 msgid "Speaker not found"
@@ -336,11 +336,11 @@ msgstr ""
 
 #: selfdrive/controls/lib/events.py:611
 msgid "Door Open"
-msgstr ""
+msgstr "Puerta Abierta"
 
 #: selfdrive/controls/lib/events.py:612
 msgid "Door open"
-msgstr ""
+msgstr "Puerta Abierta"
 
 #: selfdrive/controls/lib/events.py:616
 msgid "Seatbelt Unlatched"
@@ -356,7 +356,7 @@ msgstr ""
 
 #: selfdrive/controls/lib/events.py:626 selfdrive/controls/lib/events.py:627
 msgid "Low Battery"
-msgstr ""
+msgstr "Batería Baja"
 
 #: selfdrive/controls/lib/events.py:631 selfdrive/controls/lib/events.py:632
 msgid "Communication Issue between Processes"
@@ -387,7 +387,7 @@ msgstr ""
 
 #: selfdrive/controls/lib/events.py:683 selfdrive/controls/lib/events.py:689
 msgid "Low Memory: Reboot Your Device"
-msgstr ""
+msgstr "Memoria Baja: Reinicia tu Dispositivo"
 
 #: selfdrive/controls/lib/events.py:685
 msgid "RAM Critically Low"
