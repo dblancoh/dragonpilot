@@ -116,6 +116,8 @@ class PathPlanner():
     if (not active) or (self.lane_change_timer > LANE_CHANGE_TIME_MAX) or (not one_blinker) or (not self.lane_change_enabled):
       self.lane_change_state = LaneChangeState.off
       self.lane_change_direction = LaneChangeDirection.none
+      with open('/data/ernie_pathplanner_data', 'a') as f:
+        f.write('dpAutoLcDelay: ' + sm['dragonConf'].dpAutoLcDelay + '\n')
     else:
       torque_applied = sm['carState'].steeringPressed and \
                        ((sm['carState'].steeringTorque > 0 and self.lane_change_direction == LaneChangeDirection.left) or
@@ -144,7 +146,7 @@ class PathPlanner():
         if self.dragon_auto_lc_timer is None:
           # we only set timer when in preLaneChange state, dragon_auto_lc_delay delay
           if self.lane_change_state == LaneChangeState.preLaneChange:
-            self.dragon_auto_lc_timer = cur_time + 1.5 #sm['dragonConf'].dpAutoLcDelay
+            self.dragon_auto_lc_timer = cur_time + sm['dragonConf'].dpAutoLcDelay
         elif cur_time >= self.dragon_auto_lc_timer:
           # if timer is up, we set torque_applied to True to fake user input
           torque_applied = True
