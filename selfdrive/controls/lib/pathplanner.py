@@ -117,7 +117,7 @@ class PathPlanner():
       self.lane_change_state = LaneChangeState.off
       self.lane_change_direction = LaneChangeDirection.none
       with open('/data/ernie_pathplanner_data', 'a') as f:
-        f.write('dpAutoLcDelay: ' + sm['dragonConf'].dpAutoLcDelay + '\n')
+        f.write('dpAutoLcDelay: ' + str(sm['dragonConf'].dpAutoLcDelay) + '\n')
     else:
       torque_applied = sm['carState'].steeringPressed and \
                        ((sm['carState'].steeringTorque > 0 and self.lane_change_direction == LaneChangeDirection.left) or
