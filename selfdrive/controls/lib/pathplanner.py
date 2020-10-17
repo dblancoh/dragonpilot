@@ -116,8 +116,8 @@ class PathPlanner():
     if (not active) or (self.lane_change_timer > LANE_CHANGE_TIME_MAX) or (not one_blinker) or (not self.lane_change_enabled):
       self.lane_change_state = LaneChangeState.off
       self.lane_change_direction = LaneChangeDirection.none
-      with open('/data/ernie_pathplanner_data', 'a') as f:
-        f.write('dpAutoLcDelay: ' + str(sm['dragonConf'].dpAutoLcDelay) + '\n')
+      with open('/data/ernie_debug_data', 'a') as f:
+        f.write('pathplanner.py: dpAutoLcDelay: ' + str(sm['dragonConf'].dpAutoLcDelay) + '\n')
     else:
       torque_applied = sm['carState'].steeringPressed and \
                        ((sm['carState'].steeringTorque > 0 and self.lane_change_direction == LaneChangeDirection.left) or
