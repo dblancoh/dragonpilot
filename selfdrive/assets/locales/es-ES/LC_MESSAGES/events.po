@@ -494,11 +494,11 @@ msgstr "Por favor, Conéctate a Intenet"
 
 #: selfdrive/controls/lib/events.py:813
 msgid "Left ALC will start in 3s"
-msgstr "<-- ALC empezará en 2s"
+msgstr "<<< ALC empezará en 2s"
 
 #: selfdrive/controls/lib/events.py:821
 msgid "Right ALC will start in 3s"
-msgstr "--> ALC empezará en 2s"
+msgstr ">>> ALC empezará en 2s"
 
 #: selfdrive/controls/lib/events.py:837
 msgid "STEERING REQUIRED: Lane Keeping OFF"
