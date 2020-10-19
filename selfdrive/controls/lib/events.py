@@ -808,7 +808,7 @@ EVENTS = {
     _("Left ALC will start in 3s"),
     _("Monitor Other Vehicles"),
     AlertStatus.normal, AlertSize.mid,
-    Priority.LOW, VisualAlert.steerRequired, AudibleAlert.chimeWarning2, .1, .1, .1, alert_rate=0.75),
+    Priority.LOW, VisualAlert.steerRequired, AudibleAlert.none, .1, .1, .1, alert_rate=0.75),
   },
 
   EventName.preLaneChangeRightALC: {
@@ -816,7 +816,7 @@ EVENTS = {
      _("Right ALC will start in 3s"),
      _("Monitor Other Vehicles"),
      AlertStatus.normal, AlertSize.mid,
-     Priority.LOW, VisualAlert.steerRequired, AudibleAlert.chimeWarning2, .1, .1, .1, alert_rate=0.75),
+     Priority.LOW, VisualAlert.steerRequired, AudibleAlert.none, .1, .1, .1, alert_rate=0.75),
   },
 
   EventName.laneChangeALC: {
