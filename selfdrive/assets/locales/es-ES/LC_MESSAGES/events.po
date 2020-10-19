@@ -283,7 +283,7 @@ msgstr "Sin Espacio de Almacenamiento"
 
 #: selfdrive/controls/lib/events.py:551
 msgid "Speed Too Low"
-msgstr ""
+msgstr "Velocidad demasiado Baja"
 
 #: selfdrive/controls/lib/events.py:556 selfdrive/controls/lib/events.py:560
 msgid "NEOS Update Required"
@@ -304,15 +304,15 @@ msgstr "Reinicia tu Dispositivo"
 
 #: selfdrive/controls/lib/events.py:578 selfdrive/controls/lib/events.py:582
 msgid "Speaker not found"
-msgstr ""
+msgstr "Altavoz no encontrado"
 
 #: selfdrive/controls/lib/events.py:586
 msgid "Distraction Level Too High"
-msgstr ""
+msgstr "Nivel de Distracción Excesivo"
 
 #: selfdrive/controls/lib/events.py:590
 msgid "System Overheated"
-msgstr ""
+msgstr "Sobrecalentamiento del Sistema"
 
 #: selfdrive/controls/lib/events.py:591
 msgid "System overheated"
@@ -435,6 +435,10 @@ msgstr "Gas Error: Reinicia el Coche"
 msgid "Reverse Gear"
 msgstr "Marcha Atrás (R)"
 
+#: selfdrive/controls/lib/events.py:738 selfdrive/controls/lib/events.py:741
+msgid "Watch the enviroment"
+msgstr "Vigila el entorno"
+
 #: selfdrive/controls/lib/events.py:743
 msgid "Cruise Is Off"
 msgstr ""
@@ -466,11 +470,11 @@ msgstr ""
 
 #: selfdrive/controls/lib/events.py:773
 msgid "Speed too low"
-msgstr ""
+msgstr "Velocidad demasiado Baja"
 
 #: selfdrive/controls/lib/events.py:780 selfdrive/controls/lib/events.py:785
 msgid "Speed Too High"
-msgstr ""
+msgstr "Velocidad demasiado Alta"
 
 #: selfdrive/controls/lib/events.py:781
 msgid "Slow down to resume operation"
