@@ -232,7 +232,7 @@ msgstr ""
 
 #: selfdrive/controls/lib/events.py:445
 msgid "Steer Left to Start Lane Change"
-msgstr ""
+msgstr "Gira a la Izquierda para iniciar la maniobra"
 
 #: selfdrive/controls/lib/events.py:446 selfdrive/controls/lib/events.py:454
 #: selfdrive/controls/lib/events.py:462 selfdrive/controls/lib/events.py:470
@@ -243,11 +243,11 @@ msgstr "Vigila el resto de Vehículos"
 
 #: selfdrive/controls/lib/events.py:453
 msgid "Steer Right to Start Lane Change"
-msgstr ""
+msgstr "Gira a la Derecha para iniciar la maniobra"
 
 #: selfdrive/controls/lib/events.py:461
 msgid "Car Detected in Blindspot"
-msgstr ""
+msgstr "Vehículo Detectado en el Retrovisor"
 
 #: selfdrive/controls/lib/events.py:469 selfdrive/controls/lib/events.py:829
 msgid "Changing Lane"
@@ -436,7 +436,7 @@ msgid "Reverse Gear"
 msgstr "Marcha Atrás (R)"
 
 #: selfdrive/controls/lib/events.py:738 selfdrive/controls/lib/events.py:741
-msgid "Watch the enviroment"
+msgid "Watch the Enviroment"
 msgstr "Vigila el entorno"
 
 #: selfdrive/controls/lib/events.py:743

@@ -144,7 +144,7 @@ class PathPlanner():
         if self.dragon_auto_lc_timer is None:
           # we only set timer when in preLaneChange state, dragon_auto_lc_delay delay
           if self.lane_change_state == LaneChangeState.preLaneChange:
-            self.dragon_auto_lc_timer = cur_time + 1.5 #sm['dragonConf'].dpAutoLcDelay
+            self.dragon_auto_lc_timer = cur_time + 1.4 #sm['dragonConf'].dpAutoLcDelay
             #with open('/data/ernie_debug_data', 'a') as f:
               #f.write('pathplanner.py: dpAutoLcDelay: ' + str(sm['dragonConf'].dpAutoLcDelay) + '\n')
         elif cur_time >= self.dragon_auto_lc_timer:
